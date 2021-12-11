@@ -33,6 +33,10 @@ Plug 'mbbill/undotree'
 Plug 'jremmen/vim-ripgrep'
 " linter and fixer
 Plug 'dense-analysis/ale'
+" markdown
+Plug 'godlygeek/tabular' | Plug 'plasticboy/vim-markdown'
+" needs nodejs and yarn installed for this markdown preview
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' } 
 
 call plug#end()
 
